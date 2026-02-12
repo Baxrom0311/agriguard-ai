@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# 🌿 AgriGuard AI — Aqlli Hasharot Nazorat Tizimi
 
-## Project info
+**UV + AI + IoT** yordamida qishloq xo'jaligida zararkunandalarni sun'iy intellekt bilan aniqlash va maqsadli UV nurlanish orqali yo'q qilish tizimi.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> 📍 UzTech Hackathon 2025
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Muammo
 
-**Use Lovable**
+Qishloq xo'jaligida zamonaviy muammolar:
+- Kimyoviy zaharlar inson salomatligi va atrof-muhitga zarar keltiradi
+- An'anaviy usullar samarasiz va resurs isrof qiladi
+- Hosil yo'qotilishi yiliga milliardlab dollarni tashkil etadi
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 💡 Yechim
 
-Changes made via Lovable will be committed automatically to this repo.
+AgriGuard AI — aqlli hasharot nazorat tizimi:
+- **AI** orqali zararkunandalarni real vaqtda aniqlash (YOLO v8 + TensorFlow Lite)
+- **Maqsadli UV nurlanish** faqat zarur joylarga yo'naltiriladi
+- **IoT sensorlar** dala holatini doimiy monitoring qiladi
+- **60-70% energiya tejash** an'anaviy usullarga nisbatan
+- **100% ekologik toza** — kimyoviy moddalar ishlatilmaydi
 
-**Use your preferred IDE**
+## 🛠 Texnologiyalar
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Qatlam | Texnologiya |
+|--------|-------------|
+| Hardware | Raspberry Pi, Arduino, UV LEDs, Solar Panels |
+| AI/ML | YOLO v8, TensorFlow Lite |
+| Backend | FastAPI, PostgreSQL |
+| Frontend | React.js, TypeScript, Tailwind CSS, shadcn/ui |
+| Mobile | React Native |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 O'rnatish
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Reponi klonlash
 git clone <YOUR_GIT_URL>
+cd agriguard-ai
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Bog'liqliklarni o'rnatish
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Lokal serverni ishga tushirish
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Ilova `http://localhost:8080` da ochiladi.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Loyha Tuzilishi
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/     # UI komponentlar
+│   ├── ui/         # shadcn/ui bazaviy komponentlar
+│   ├── Navbar.tsx
+│   ├── HeroSection.tsx
+│   ├── ProblemSection.tsx
+│   ├── SolutionSection.tsx
+│   ├── HowItWorksSection.tsx
+│   ├── TeamSection.tsx
+│   ├── RoadmapSection.tsx
+│   ├── ImplementationSection.tsx
+│   └── Footer.tsx
+├── pages/          # Sahifalar
+│   ├── Index.tsx
+│   ├── Demo.tsx
+│   └── NotFound.tsx
+├── hooks/          # React hooks
+├── lib/            # Yordamchi funksiyalar
+└── assets/         # Rasmlar va resurslar
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 👥 Jamoa
 
-## What technologies are used for this project?
+AgriGuard AI — UzTech Hackathon 2025 ishtirokchilari.
 
-This project is built with:
+## 📄 Litsenziya
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Play } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -31,22 +31,21 @@ const Demo = () => {
             </p>
           </motion.div>
 
-          {/* Video placeholder */}
+          {/* Demo Video */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="glass-card glow-uv max-w-4xl mx-auto overflow-hidden mb-12"
           >
-            <div className="aspect-video bg-muted/30 flex items-center justify-center relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
-              <div className="relative z-10 text-center">
-                <div className="w-20 h-20 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4 cursor-pointer hover:bg-primary/30 transition-colors">
-                  <Play className="w-8 h-8 text-primary ml-1" />
-                </div>
-                <p className="text-sm text-muted-foreground">Demo video tez orada yuklanadi</p>
-              </div>
-            </div>
+            <video
+              className="w-full aspect-video bg-black rounded-lg"
+              controls
+              preload="metadata"
+            >
+              <source src="/Farmeyes.mp4" type="video/mp4" />
+              Brauzeringiz video formatini qo'llab-quvvatlamaydi.
+            </video>
           </motion.div>
 
           {/* Video description */}
@@ -60,7 +59,7 @@ const Demo = () => {
               <h2 className="font-display font-bold text-xl mb-4">
                 AgriGuard AI — Aqlli Hasharot Nazorat Tizimi
               </h2>
-              
+
               <div className="space-y-4">
                 <div>
                   <h3 className="text-sm font-semibold text-primary mb-2">Videoda nima ko'rsatilgan:</h3>
